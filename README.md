@@ -11,6 +11,8 @@ Agent שמקבל הוראה בשפה טבעית (עברית) ומחזיר פקו
 
 **תיעוד הבדיקות (Google Sheet):** https://docs.google.com/spreadsheets/d/1vmqQvQ6OyedktVgn3uW2zVg5EyOcO8YJ9M0LaOIGJIM/edit?usp=sharing
 
+עותק של הגיליון נמצא גם בריפו, בתיקייה [`evaluation/`](evaluation): קובץ `evaluation.xlsx` עם כל הלשוניות, וקובץ CSV לכל איטרציה ולגרסאות הפרומפט.
+
 ## מבנה הפרויקט
 
 | קובץ | תפקיד |
@@ -19,6 +21,7 @@ Agent שמקבל הוראה בשפה טבעית (עברית) ומחזיר פקו
 | `run_tests.py` | מריץ את 15 תרחישי הבדיקה ושומר את התוצאות ל-CSV |
 | `results/results_v2.csv`, `results/results_v3.csv` | הפלטים הגולמיים של איטרציות 2 ו-3 |
 | `test_api.py` | בדיקת חיבור ל-Groq ורשימת המודלים הזמינים |
+| `evaluation/` | עותק של גיליון הבדיקות: כל שלוש האיטרציות וגרסאות הפרומפט |
 
 ## הרצה
 
