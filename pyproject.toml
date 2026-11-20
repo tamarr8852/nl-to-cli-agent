@@ -1,0 +1,21 @@
+[project]
+name = "myproject"
+version = "0.1.0"
+description = "Agent that translates natural-language instructions into Windows CMD commands"
+readme = "README.md"
+authors = [
+    { name = "tamar rosenfeld", email = "tamarr8852@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=5.0",
+    "openai>=2.0",
+    "python-dotenv>=1.2.1",
+]
+
+[project.scripts]
+myproject = "myproject:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"

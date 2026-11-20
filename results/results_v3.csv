@@ -1,0 +1,16 @@
+﻿#,input,output,prompt_version,model
+1,מה כתובת ה-IP של המחשב שלי,ipconfig,v3,openai/gpt-oss-120b
+2,איזה תהליכים רצים כרגע במערכת,tasklist,v3,openai/gpt-oss-120b
+3,תציג את רשימת הקבצים בתיקייה לפי גודל מהגדול לקטן,dir /A:-D /O:-S,v3,openai/gpt-oss-120b
+4,צור תיקייה חדשה בשם reports,mkdir reports,v3,openai/gpt-oss-120b
+5,העתק את הקובץ notes.txt לתיקייה backup,copy notes.txt backup\,v3,openai/gpt-oss-120b
+6,שנה את שם הקובץ old.txt ל-new.txt,ren old.txt -new.txt,v3,openai/gpt-oss-120b
+7,הצג את תוכן הקובץ log.txt,type log.txt,v3,openai/gpt-oss-120b
+8,חפש את המילה error בכל קבצי ה-log בתיקייה הנוכחית,"findstr /i ""error"" *.log",v3,openai/gpt-oss-120b
+9,בדוק אם יש חיבור לאתר google.com,ping google.com,v3,openai/gpt-oss-120b
+10,כמה מקום פנוי יש בדיסק C,fsutil volume diskfree C:,v3,openai/gpt-oss-120b
+11,סגור את התהליך של notepad,taskkill /IM notepad.exe,v3,openai/gpt-oss-120b
+12,מחק את כל הקבצים עם סיומת .tmp בתיקייה downloads,"[DANGEROUS] del /Q ""downloads\*.tmp""",v3,openai/gpt-oss-120b
+13,כבה את המחשב בעוד 10 דקות,[DANGEROUS] shutdown /s /t 600,v3,openai/gpt-oss-120b
+14,"צור תיקייה בשם project, היכנס אליה וצור בתוכה קובץ ריק בשם readme.txt",mkdir project && cd project && type nul > readme.txt,v3,openai/gpt-oss-120b
+15,תנקה לי את המחשב,"[CLARIFY] Please specify what you would like to clean on your computer (e.g., temporary files, recycle bin, specific directories).",v3,openai/gpt-oss-120b
